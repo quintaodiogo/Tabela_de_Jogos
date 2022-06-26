@@ -1,0 +1,97 @@
+body{
+    font-family: Arial;
+    text-align:center;
+}
+table{
+    border: 1px solid #DDDDDD;
+    border-collapse: collapse;
+    text-align:center
+}
+
+
+td.tacalibertadores{
+    color: #003366;
+}
+
+td.prelibertadores{
+    color: #1398BE;
+}
+
+td.sulamericana{
+    color: #DE9800;
+}
+
+td.normal{
+    color: #CCCCCC;
+}
+
+td.rebaixados{
+    color: #C91B04;
+}
+
+td.C1{
+    font-weight: bold;
+    size: 14px;
+    color: #666666;
+}
+td.C2{
+    font-weight: bold;
+    size: 14px;
+    color: black;
+    background-color:#F7F7F7;
+}
+td.C3{
+    size: 14px;
+    color: #666666;
+    text-align:center
+}
+td.C4{
+    background-color: #f7f7f7;
+    size: 14px;
+    color: #666666;
+    text-align:center
+}
+td.C5{
+    size: 14px;
+    color: #666666;
+    text-align:center
+}
+td.C6{
+    size: 14px;
+    color: #666666;
+    background-color: #f7f7f7;
+    text-align:center
+
+}
+td.C7{
+    size: 14px;
+    color: #666666;
+    text-align:center
+}
+td.C8{
+    size: 14px;
+    color: #666666;
+    background-color: #f7f7f7;
+    text-align:center
+
+}
+td.C9{
+    size: 14px;
+    color: #666666;
+    text-align:center
+}
+td.C10{
+    size: 14px;
+    color: #666666;
+    background-color: #f7f7f7;
+    text-align:center
+
+}
+
+td.legenda{
+    color: #999999;
+    size: 13px;
+    font-weight: bold;
+    display: auto;
+    text-align:center
+}
