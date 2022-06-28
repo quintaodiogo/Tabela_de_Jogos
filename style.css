@@ -1,97 +1,141 @@
-body{
-    font-family: Arial;
-    text-align:center;
-}
 table{
+    font-family: Arial;
+    padding: auto;
+    margin: auto;
+}
+
+thead{
+    color: #999999;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+tbody{
+    text-align: center;
+}
+
+table,th,td{
     border: 1px solid #DDDDDD;
     border-collapse: collapse;
-    text-align:center
 }
 
-
-td.tacalibertadores{
+th.tacalibertadores{
     color: #003366;
+    text-align: center;
+    font-size: 18px;
 }
 
-td.prelibertadores{
+th.prelibertadores{
     color: #1398BE;
+    text-align: center;
+    font-size: 18px;
 }
 
-td.sulamericana{
+th.sulamericana{
     color: #DE9800;
+    text-align: center;
+    font-size: 18px;
 }
 
-td.normal{
+th.normal{
     color: #CCCCCC;
+    text-align: center;
+    font-size: 18px;
 }
 
-td.rebaixados{
+th.rebaixados{
     color: #C91B04;
+    text-align: center;
+    font-size: 18px;
+    width: 0px;
 }
 
-td.C1{
-    font-weight: bold;
-    size: 14px;
+th.C1{
     color: #666666;
+    font-size: 14px;
+    text-indent: 0px;
+    text-align: left;
+    width: 170px;
 }
+
 td.C2{
-    font-weight: bold;
-    size: 14px;
     color: black;
     background-color:#F7F7F7;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    width: 45px;
 }
 td.C3{
-    size: 14px;
     color: #666666;
-    text-align:center
+    font-size: 14px;
+    text-align: center;    
+    width: 45px;
 }
 td.C4{
-    background-color: #f7f7f7;
-    size: 14px;
     color: #666666;
-    text-align:center
+    background-color: #F7F7F7;
+    font-size: 14px;
+    text-align: center;
+    width: 45px;
 }
 td.C5{
-    size: 14px;
     color: #666666;
-    text-align:center
+    font-size: 14px;
+    text-align: center;
+    width: 45px;
 }
 td.C6{
-    size: 14px;
     color: #666666;
-    background-color: #f7f7f7;
-    text-align:center
-
+    background-color: #F7F7F7;
+    font-size: 14px;
+    text-align: center;
+    width: 45px;
 }
 td.C7{
-    size: 14px;
     color: #666666;
-    text-align:center
+    font-size: 14px;
+    text-align: center;
+    width: 45px;
 }
 td.C8{
-    size: 14px;
     color: #666666;
-    background-color: #f7f7f7;
-    text-align:center
-
+    background-color: #F7F7F7;
+    font-size: 14px;
+    text-align: center;
+    width: 45px;
 }
 td.C9{
-    size: 14px;
     color: #666666;
-    text-align:center
+    font-size: 14px;
+    text-align: center;
+    width: 45px;
 }
 td.C10{
-    size: 14px;
     color: #666666;
-    background-color: #f7f7f7;
-    text-align:center
-
+    background-color: #F7F7F7;
+    font-size: 14px;
+    text-align: center;
+    width: 45px;
 }
 
-td.legenda{
-    color: #999999;
-    size: 13px;
+tfoot{
+    font-family: Arial;
+    font-size: 10px;
+    text-align: left;
+}
+td.Significados{
+    color: #555555;
+    font-size: 10px;
+}
+td.Simbolos{
+    color: #555555;
+    font-size: 10px;
     font-weight: bold;
-    display: auto;
-    text-align:center
+}
+
+tr.Legenda{
+    color: #8F8F8F;
+    font-size: 10px;
 }
