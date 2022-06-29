@@ -1,141 +1,138 @@
-table{
-    font-family: Arial;
-    padding: auto;
-    margin: auto;
+table {
+  font-family: Arial;
+  padding: auto;
+  margin: auto;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+  cursor: default;
 }
 
-thead{
-    color: #999999;
-    font-size: 13px;
-    font-weight: bold;
-    text-align: center;
+thead {
+  color: #999999;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
 }
 
-tbody{
-    text-align: center;
+tr.Linha {
+  border-top: 2px solid #dddddd;
 }
 
-table,th,td{
-    border: 1px solid #DDDDDD;
-    border-collapse: collapse;
+tbody th,
+tbody td {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  width: 35px;
+  height: 25px;
 }
 
-th.tacalibertadores{
-    color: #003366;
-    text-align: center;
-    font-size: 18px;
+td.tacalibertadores {
+  color: #003366;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-th.prelibertadores{
-    color: #1398BE;
-    text-align: center;
-    font-size: 18px;
+td.prelibertadores {
+  color: #1398be;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-th.sulamericana{
-    color: #DE9800;
-    text-align: center;
-    font-size: 18px;
+td.sulamericana {
+  color: #de9800;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-th.normal{
-    color: #CCCCCC;
-    text-align: center;
-    font-size: 18px;
+td.normal {
+  color: #cccccc;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-th.rebaixados{
-    color: #C91B04;
-    text-align: center;
-    font-size: 18px;
-    width: 0px;
+td.rebaixados {
+  color: #c91b04;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-th.C1{
-    color: #666666;
-    font-size: 14px;
-    text-indent: 0px;
-    text-align: left;
-    width: 170px;
+td.C1 {
+  color: #666666;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  width: 170px;
 }
 
-td.C2{
-    color: black;
-    background-color:#F7F7F7;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-    width: 45px;
-}
-td.C3{
-    color: #666666;
-    font-size: 14px;
-    text-align: center;    
-    width: 45px;
-}
-td.C4{
-    color: #666666;
-    background-color: #F7F7F7;
-    font-size: 14px;
-    text-align: center;
-    width: 45px;
-}
-td.C5{
-    color: #666666;
-    font-size: 14px;
-    text-align: center;
-    width: 45px;
-}
-td.C6{
-    color: #666666;
-    background-color: #F7F7F7;
-    font-size: 14px;
-    text-align: center;
-    width: 45px;
-}
-td.C7{
-    color: #666666;
-    font-size: 14px;
-    text-align: center;
-    width: 45px;
-}
-td.C8{
-    color: #666666;
-    background-color: #F7F7F7;
-    font-size: 14px;
-    text-align: center;
-    width: 45px;
-}
-td.C9{
-    color: #666666;
-    font-size: 14px;
-    text-align: center;
-    width: 45px;
-}
-td.C10{
-    color: #666666;
-    background-color: #F7F7F7;
-    font-size: 14px;
-    text-align: center;
-    width: 45px;
+td.C2 {
+  color: black;
+  background-color: #f7f7f7;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
 }
 
-tfoot{
-    font-family: Arial;
-    font-size: 10px;
-    text-align: left;
-}
-td.Significados{
-    color: #555555;
-    font-size: 10px;
-}
-td.Simbolos{
-    color: #555555;
-    font-size: 10px;
-    font-weight: bold;
+td.C3 {
+  color: #666666;
+  font-size: 14px;
+  text-align: center;
 }
 
-tr.Legenda{
-    color: #8F8F8F;
-    font-size: 10px;
+td.C4 {
+  color: #666666;
+  background-color: #f7f7f7;
+  font-size: 14px;
+  text-align: center;
+}
+
+td.C5 {
+  color: #666666;
+  font-size: 14px;
+  text-align: center;
+}
+
+td.C6 {
+  color: #666666;
+  background-color: #f7f7f7;
+  font-size: 14px;
+  text-align: center;
+}
+
+td.C7 {
+  color: #666666;
+  font-size: 14px;
+  text-align: center;
+}
+
+td.C8 {
+  color: #666666;
+  background-color: #f7f7f7;
+  font-size: 14px;
+  text-align: center;
+}
+
+td.C9 {
+  color: #666666;
+  font-size: 14px;
+  text-align: center;
+}
+
+td.C10 {
+  color: #666666;
+  background-color: #f7f7f7;
+  font-size: 14px;
+  text-align: center;
+}
+
+tfoot {
+  font-family: Arial;
+  font-size: 10px;
+  color: #555555;
+  text-align: left;
+  word-spacing: 1px;
 }
